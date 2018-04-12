@@ -1,0 +1,15 @@
+sig.dat                        
+0                           
+1                           
+1
+30                             
+y
+
+
+DOCUMENTATION OF THE QUANTITIES ABOVE:
+fft.dat          .../file containing time series (50 characters max)
+0                 .../data file header line skip
+1                 .../total number of columns in the data file
+1                 .../id of selected column (starts at 1) 
+10               .../total sampling timespan of the time series data [time units] - used for frequency calculations
+y                 .../additional output of real and imaginary parts of the fft result (y/n)
