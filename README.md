@@ -5,11 +5,11 @@ Have you ever run a quick FFT and were frustrated by the obscure scaling of the 
 
 No more!
 
-FFT version 3.0 is a wrapper for the famous FFTW (www.fftw.org/) written in C++, that allows input from multi-column time series files scaling the results so that a signal
+FFT version 3.0 is a wrapper for the famous FFTW (www.fftw.org/) written in C++, that allows input from multi-column time series files scaling the results so that the FFT of a signal
 
 S(t) = a * sin(nu * t * 2 * pi)
 
-would result in an amplitude "a" peaking at the frequency "nu" irrespective of the number of samples the time series contains!
+would result in an amplitude "a" peaking at the frequency "nu" irrespective of the number of samples the time series contains.
 
 --------------------------------------------------------
 REQUIREMENTS:
