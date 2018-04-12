@@ -30,7 +30,8 @@ HOWTO?
 ```
 4) compile with 
 ```console 
-make ```
+make 
+```
 5) install with 
 ```console 
 make install 
