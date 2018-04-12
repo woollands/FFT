@@ -7,14 +7,9 @@ No more!
 
 FFT version 3.0 is a wrapper for the famous FFTW (www.fftw.org/) written in C++, that allows input from multi-column time series files scaling the results so that a signal
 
-S(t) = a * sin(nu * t * 2 pi)
+S(t) = a * sin(nu * t * 2 * pi)
 
-would result in an amplitude peaking at "a" at the frequency "nu" no matter how many samples the file contains!
-
---------------------------------------------------------
-written by Siegfried Eggl 2011 10 05
-
-last modified by Siegfried Eggl 2018 04 11
+would result in an amplitude "a" peaking at the frequency "nu" irrespective of the number of samples the time series contains!
 
 --------------------------------------------------------
 REQUIREMENTS:
@@ -40,9 +35,15 @@ ALTERNATIVELY...
 7) run fft
 8) the output file: fft.csv (comma separated value format) contains the (resolved) frequencies, periods and the signal amplitudes. Optionally real and imaginary FFT results can be desplayed (modify fft.inn)
 
+
+
+--------------------------------------------------------
+WRITTEN BY: Siegfried Eggl 2011 10 05
+
+--------------------------------------------------------
+
+LAST MODIFIED by Siegfried Eggl 2018 04 11
+
 --------------------------------------------------------
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
 
