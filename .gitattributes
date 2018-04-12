@@ -1,10 +1,19 @@
 *.am linguist-detectable=false
 *.ac linguist-detectable=false
 *.in linguist-detectable=false
-*.out linguist-detectable=false
-*.dat linguist-detectable=false
 *.sh linguist-detectable=false
 *.sc linguist-detectable=false
+*.m4 linguist-detectable=false
+
+compile linguist-detectable=false
+config* linguist-detectable=false
+install* linguist-detectable=false
+depcomp* linguist-detectable=false
+missing* linguist-detectable=false
+
+*.out linguist-detectable=false
+*.dat linguist-detectable=false
+
 
 
 #sources
