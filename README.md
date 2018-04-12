@@ -24,12 +24,23 @@ HOWTO?
 
 1) Download the code
 2) unzip the package fft-3.zip
-3) run the configure script: ./configure
-4) make
-5) make install
+3) run the configure script: 
+```console
+./configure
+```
+4) compile with 
+```console 
+make ```
+5) install with 
+```console 
+make install 
+```
 
 ALTERNATIVELY...
-*) in case you do not have the "make" utility installed compile with e.g.: g++ fft.cpp -o fft3.exe -lfftw -lm
+*) in case you do not have the "make" utility installed compile with e.g.: 
+```console
+g++ fft.cpp -o fft3.exe -lfftw -lm
+```
 
 6) modify the input file: fft.inn to include your time series file name and adjust other parameters
 7) run fft
