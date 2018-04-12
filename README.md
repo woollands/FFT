@@ -7,7 +7,9 @@ No more!
 
 FFT version 3.0 is a wrapper for the famous FFTW (www.fftw.org/) written in C++, that allows input from multi-column time series files scaling the results so that the FFT of a signal
 
-S(t) = a * sin(nu * t * 2 * pi)
+```math #yourmathlabel
+  S(t) = a sin(2 PI nu t) 
+```
 
 would result in an amplitude "a" peaking at the frequency "nu" irrespective of the number of samples the time series contains.
 
